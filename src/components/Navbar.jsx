@@ -8,12 +8,12 @@ const Navbar = () => {
             <nav>
                 <h2><a class="menu-item" href="#">XtirDev</a></h2>
                 <ul>
-                    <li><a class="menu-item" href="#">Inicio</a></li>
+                    <li><a class="menu-item" href="#home">Inicio</a></li>
                     <li><a class="menu-item" href="#portafolio">Portafolio</a></li>
                     <li><a class="menu-item" href="#contacto">Contacto</a></li>
                 </ul>
                 <CartWidget />
-                </nav>
+            </nav>
         </>
     )
 }
