@@ -1,0 +1,25 @@
+/* MENU */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #50514F;
+    color: #F3F7F0;
+    padding: 2rem 3rem;   
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 30rem;
+}
+
+.menu-item:link {
+    color: #F3F7F0;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    font-weight: bold;
+}
